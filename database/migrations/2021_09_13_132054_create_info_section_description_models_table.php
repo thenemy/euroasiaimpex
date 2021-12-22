@@ -19,9 +19,9 @@ class CreateInfoSectionDescriptionModelsTable extends Migration
             $table->string("title^ru")->default("");
             $table->string("title^en")->default("");
             $table->string("title^uz")->default("");
-            $table->text("body^ru")->default("");
-            $table->text("body^en")->default("");
-            $table->text("body^uz")->default("");
+            $table->text("body^ru")->nullable();
+            $table->text("body^en")->nullable();
+            $table->text("body^uz")->nullable();
         });
     }
 
