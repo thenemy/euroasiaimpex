@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 23, 2021 at 09:27 AM
+-- Generation Time: Dec 23, 2021 at 03:38 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.23
 
@@ -52,10 +52,7 @@ CREATE TABLE `about_company_descriptions` (
 --
 
 INSERT INTO `about_company_descriptions` (`id`, `title^ru`, `title^uz`, `title^en`, `header^ru`, `header^uz`, `header^en`, `footer^ru`, `footer^uz`, `footer^en`, `key_word^ru`, `key_word^uz`, `key_word^en`, `about_company_title_id`, `body^ru`, `body^uz`, `body^en`) VALUES
-(1, 'Чем мы занимаемся', 'Biz ne yapıyoruz', 'What we do', '—', '—', '—', 'EUROASIA IMPEX', 'EUROASIA IMPEX', 'EUROASIA IMPEX', '1', '1', '1', 1, 'Наша фирма на протяжении многих лет занимается поставкой с Турции на среднеазиатский рынок различных видов товаров таких как стройматериалы, пластиковые трубы для отопления и водоснабжения, запорная арматура, хамуты, паяльники и ножницы для пластиковых труб, оборудования и сырье, строительная техника и запчасти, фильтры для очистки воды, пластиковые изделия для строительства и домашнего обихода, продовольственные товары, малая бытовая техника и другие.', 'Firmamız uzun yıllardır meşgul teslimat ile Türkiye\'nin orta asya pazarı farklı türde öğeleri gibi inşaat malzemeleri, plastik boru, ısıtma ve su temini, stop vana, хамуты, lehimleme ırons ve makası, plastik boru, ekipman ve hammadde, inşaat makineleri ve yedek parçaları, su arıtma filtreleri, plastik ürünler, inşaat, ev eşyaları, gıda ürünleri, küçük ev aletleri ve diğerleri.', 'Our company has been supplying various types of goods from Turkey to the Central Asian market for many years, such as building materials, plastic pipes for heating and water supply, shut-off valves, hammocks, soldering irons and scissors for plastic pipes, equipment and raw materials, construction machinery and spare parts, water filters, plastic products for construction and household use, foodstuffs, small household appliances and others.'),
-(2, 'На что мы способны', 'Neler yapabiliyoruz', 'What are we capable of', '—', '—', '—', 'EUROASIA IMPEX', 'EUROASIA IMPEX', 'EUROASIA IMPEX', '2', '2', '2', 1, 'На сегодняшний день мы являемся эксклюзивным дилером и доверенным партнёром нескольких заводов. Кроме этого, пользуясь благоприятной геолокацией нашей компании и среде для бизнеса, мы помогаем нашим инопартнерам осуществлению бизнес сделок и соглашений.', 'Bugüne kadar, birkaç fabrikanın özel bir satıcısı ve güvenilir ortağıyız. Buna ek olarak, şirketimizin elverişli coğrafi konumlarından ve iş ortamından yararlanarak, iş arkadaşımızın iş anlaşmaları ve anlaşmalarını gerçekleştirmesine yardımcı oluyoruz.', 'Today we are an exclusive dealer and a trusted partner of several factories. In addition, taking advantage of the favorable geolocation of our company and the business environment, we help our foreign partners to implement business transactions and agreements.'),
-(3, 'Опыт работы', 'İş deneyimi', 'Work experience', '—', '—', '—', 'EUROASIA IMPEX', 'EUROASIA IMPEX', 'EUROASIA IMPEX', '3', '3', '3', 1, 'Исходя из опыта и пользуясь своей репутацией, наша компания последние три года активно работает на сфере международной перевозке грузов. Не останавливаясь на достигнутом мы уже набрали опыт при использовании мультимодальных видов транспорта и транзита грузов через морские порты.', 'Deneyimlerinden ve itibarından yararlanarak firmamız son üç yıldır uluslararası yük taşımacılığı alanında aktif olarak çalışmaktadır. Orada durmadan, limanlardan çok modlu nakliye ve kargo transit modlarını kullanırken zaten deneyim kazandık.', 'Based on experience and using its reputation, our company has been actively working in the field of international cargo transportation for the last three years. Without stopping there, we have already gained experience in using multimodal modes of transport and cargo transit through seaports.'),
-(4, 'Наши цели', 'Hedeflerimiz', 'Our goals', '—', '—', '—', 'EUROASIA IMPEX', 'EUROASIA IMPEX', 'EUROASIA IMPEX', '4', '4', '4', 1, 'Наша цель никогда не останавливаться, перспективно работать усовершенствованию работающих проектов и применять новые возможности в бизнесе.\r\n Мы всегда стремимся вести дела с справедливостью, честностью и открыто-прозрачно, которая способствует долгосрочным отношениям и доверию нам.', 'Amacımız asla durmamak, çalışan projeleri geliştirmek ve iş dünyasındaki yeni fırsatları uygulamak için umut verici bir şekilde çalışmaktır.\r\nHer zaman adaletle, dürüstlükle ve açık ve şeffaf bir şekilde iş yapmaya çalışıyoruz, bu da uzun vadeli ilişkileri ve bize olan güveni teşvik ediyor.', 'Our goal is never to stop, to work prospectively to improve working projects and to apply new business opportunities.\r\n We always strive to conduct business with fairness, honesty and openly-transparently, which promotes long-term relationships and trust in us.');
+(1, 'Кто мы', 'Biz kimiz', 'Who we are', '—', '—', '—', 'EUROASIA IMPEX', 'EUROASIA IMPEX', 'EUROASIA IMPEX', '1', '1', '1', 1, 'Наша фирма на протяжении многих лет занимается поставкой с Турции на среднеазиатский рынок различных видов товаров таких как стройматериалы, пластиковые трубы для отопления и водоснабжения, запорная арматура, хамуты, паяльники и ножницы для пластиковых труб, оборудования и сырье, строительная техника и запчасти, фильтры для очистки воды, пластиковые изделия для строительства и домашнего обихода, продовольственные товары, малая бытовая техника и другие.\r\nНа сегодняшний день мы являемся эксклюзивным дилером и доверенным партнёром нескольких заводов. Кроме этого, пользуясь благоприятной геолокацией нашей компании и среде для бизнеса, мы помогаем нашим инопартнерам осуществлению бизнес сделок и соглашений.\r\nИсходя из опыта и пользуясь своей репутацией, наша компания последние три года активно работает на сфере международной перевозке грузов. Не останавливаясь на достигнутом мы уже набрали опыт при использовании мультимодальных видов транспорта и транзита грузов через морские порты.\r\nНаша цель никогда не останавливаться, перспективно работать усовершенствованию работающих проектов и применять новые возможности в бизнесе.\r\n Мы всегда стремимся вести дела с справедливостью, честностью и открыто-прозрачно, которая способствует долгосрочным отношениям и доверию нам.', 'Firmamız uzun yıllardır meşgul teslimat ile Türkiye\'nin orta asya pazarı farklı türde öğeleri gibi inşaat malzemeleri, plastik boru, ısıtma ve su temini, stop vana, хамуты, lehimleme ırons ve makası, plastik boru, ekipman ve hammadde, inşaat makineleri ve yedek parçaları, su arıtma filtreleri, plastik ürünler, inşaat, ev eşyaları, gıda ürünleri, küçük ev aletleri ve diğerleri.\r\nBugüne kadar, birkaç fabrikanın özel bir satıcısı ve güvenilir ortağıyız. Buna ek olarak, şirketimizin elverişli coğrafi konumlarından ve iş ortamından yararlanarak, iş arkadaşımızın iş anlaşmaları ve anlaşmalarını gerçekleştirmesine yardımcı oluyoruz.\r\nDeneyimlerinden ve itibarından yararlanarak firmamız son üç yıldır uluslararası yük taşımacılığı alanında aktif olarak çalışmaktadır. Orada durmadan, limanlardan çok modlu nakliye ve kargo transit modlarını kullanırken zaten deneyim kazandık.\r\nAmacımız asla durmamak, çalışan projeleri geliştirmek ve iş dünyasındaki yeni fırsatları uygulamak için umut verici bir şekilde çalışmaktır.\r\nHer zaman adaletle, dürüstlükle ve açık ve şeffaf bir şekilde iş yapmaya çalışıyoruz, bu da uzun vadeli ilişkileri ve bize olan güveni teşvik ediyor.', 'Our company has been supplying various types of goods from Turkey to the Central Asian market for many years, such as building materials, plastic pipes for heating and water supply, shut-off valves, hammocks, soldering irons and scissors for plastic pipes, equipment and raw materials, construction machinery and spare parts, water filters, plastic products for construction and household use, foodstuffs, small household appliances and others.\r\nToday we are an exclusive dealer and a trusted partner of several factories. In addition, taking advantage of the favorable geolocation of our company and the business environment, we help our foreign partners to implement business transactions and agreements.\r\nBased on experience and using its reputation, our company has been actively working in the field of international cargo transportation for the last three years. Without stopping there, we have already gained experience in using multimodal modes of transport and cargo transit through seaports.\r\nOur goal is never to stop, to work prospectively to improve working projects and to apply new business opportunities.\r\n We always strive to conduct business with fairness, honesty and openly-transparently, which promotes long-term relationships and trust in us.');
 
 -- --------------------------------------------------------
 
@@ -129,7 +126,7 @@ INSERT INTO `buttons` (`id`, `name^ru`, `name^en`, `name^uz`, `link`, `button_ty
 (7, '', '', '', '', 'App\\Models\\Home\\InfoSectionDescriptionModel', 2),
 (8, '', '', '', '', 'App\\Models\\Home\\MainBanner', 1),
 (9, '', '', '', '', 'App\\Models\\Home\\SectionNearMap', 1),
-(10, 'info@euroasiaimpex.com', 'info@euroasiaimpex.com', 'info@euroasiaimpex.com', 'info@euroasiaimpex.com', 'App\\Models\\Common\\Link', 1);
+(10, 'info@euroasiaimpex.com', 'info@euroasiaimpex.com', 'info@euroasiaimpex.com', 'https://info@euroasiaimpex.com', 'App\\Models\\Common\\Link', 1);
 
 -- --------------------------------------------------------
 
@@ -386,7 +383,7 @@ CREATE TABLE `icons` (
 
 INSERT INTO `icons` (`id`, `icon`, `icon_type`, `icon_id`) VALUES
 (1, '../images/icons/preloader.GIF', 'App\\Models\\Common\\Style', 1),
-(2, 'images_store/logo/1638452591.png', 'App\\Models\\Common\\Logo', 1);
+(2, 'images_store/logo/1640266268.png', 'App\\Models\\Common\\Logo', 1);
 
 -- --------------------------------------------------------
 
@@ -436,7 +433,7 @@ INSERT INTO `images_admin` (`id`, `image`, `image_type`, `image_id`) VALUES
 (2, '../images/background/bottom-circular.png', 'App\\Models\\Home\\InfoSectionModel', 1),
 (3, '', 'App\\Models\\Home\\InfoSectionDescriptionModel', 1),
 (4, '', 'App\\Models\\Home\\InfoSectionDescriptionModel', 2),
-(5, 'images_store/main_banner/1638184239.png', 'App\\Models\\Home\\MainBanner', 1),
+(5, 'images_store/main_banner/1640265124.png', 'App\\Models\\Home\\MainBanner', 1),
 (6, 'images_store/three_banner/1638187696.jpg', 'App\\Models\\Common\\BannerForThreeSection', 1),
 (7, 'images_store/1638800987.png', 'App\\Models\\AboutCompany\\AboutCompanyTitle', 1),
 (8, 'images_store/sponsors/1638190790.png', 'App\\Models\\Common\\Sponsor', 1),
@@ -445,7 +442,7 @@ INSERT INTO `images_admin` (`id`, `image`, `image_type`, `image_id`) VALUES
 (11, 'images_store/sponsors/1638190894.png', 'App\\Models\\Common\\Sponsor', 4),
 (12, 'images_store/sponsors/1638190907.png', 'App\\Models\\Common\\Sponsor', 5),
 (13, 'images_store/sponsors/1638190860.png', 'App\\Models\\Common\\Sponsor', 6),
-(14, 'images_store/logo/1638449924.png', 'App\\Models\\Common\\Logo', 1),
+(14, 'images_store/logo/1640263170.png', 'App\\Models\\Common\\Logo', 1),
 (15, 'images_store/three_banner/1639915822.jpg', 'App\\Models\\Common\\BannerForThreeSection', 2);
 
 -- --------------------------------------------------------
@@ -527,7 +524,7 @@ CREATE TABLE `info_section_models` (
 --
 
 INSERT INTO `info_section_models` (`id`, `title^ru`, `title^uz`, `title^en`) VALUES
-(1, 'Добро пожаловать в нашу компанию', 'Firmamıza hoşgeldiniz', 'Welcome to our company');
+(1, 'Сферы деятельности', 'Faaliyet alanları', 'Areas of activity');
 
 -- --------------------------------------------------------
 
@@ -915,7 +912,7 @@ CREATE TABLE `styles` (
 --
 
 INSERT INTO `styles` (`id`, `choice_color`, `main_color`, `emphasize_color`, `title_color`, `secondary_color`, `common_icon`, `intro_section_before_color_home`, `scroll_up_color`) VALUES
-(1, '105,105,105,1', '255,255,255,1', '245,176,98,1', '51,51,51,1', '119,119,119,1', 'images_store/style/1638452648.png', '244,238,222,0.94', '10,10,10,1');
+(1, '105,105,105,1', '255,255,255,1', '113,113,113,1', '51,51,51,1', '119,119,119,1', 'images_store/style/1638452648.png', '244,238,222,0.94', '10,10,10,1');
 
 -- --------------------------------------------------------
 
