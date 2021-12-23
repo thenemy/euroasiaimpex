@@ -22,7 +22,7 @@
                          data-endelementdelay="0.3"
                          data-endspeed="1200"
                          data-endeasing="Power4.easeIn">
-                        <h2 class="main-text" style="font-size: 4rem">{{$main_banner->title}}</h2>
+                        <h2 class="main-text" style="font-size: 5rem">{{$main_banner->title}}</h2>
                     </div>
 
                     <div class="tp-caption sfr sfb tp-resizeme"
