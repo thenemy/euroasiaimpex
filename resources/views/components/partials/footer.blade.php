@@ -9,10 +9,11 @@
                 <!--Footer Column-->
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column">
                     <div class="footer-widget about-widget">
-                        <figure class="footer-logo"><a href="index.blade.php"><img src="{{$logo->logo_220_80}}"
-                                                                                   alt=""></a>
+                        <figure class="footer-logo"><a href="index.blade.php"><img src="
+{{$logo->logo_220_80}}"
+                                                                                    alt="">
+                            </a>
                         </figure>
-
                         <div class="text">
                             @php
                                 echo $footer->text_desc_footer;
@@ -22,37 +23,9 @@
                     </div>
                 </div>
 
-{{--                <!--Footer Column-->--}}
-{{--                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column">--}}
-{{--                    <div class="footer-widget info-widget">--}}
-{{--                        <h2>{{$footer->keep_in_touch}}</h2>--}}
-{{--                        <ul class="info">--}}
-{{--                            @foreach($footer->information_model as $info)--}}
-{{--                                <li>{{$info->title}} : {{$info->data}}</li>--}}
-{{--                            @endforeach--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
-
-{{--                <!--Footer Column-->--}}
-{{--                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column">--}}
-{{--                    <div class="footer-widget gallery-widget">--}}
-{{--                        <h2>{{$footer->instagram_feed}}</h2>--}}
-{{--                        <div class="clearfix">--}}
-{{--                            @foreach($footer->instagram_images as $image)--}}
-{{--                                <figure class="image"><a href="{{$image->image_preview_path}}" class="lightbox-image"--}}
-{{--                                                         data-fancybox-group="fancybox" title="Caption Here"><img--}}
-{{--                                            src="{{$image->image_path}}" alt=""></a></figure>--}}
-{{--                            @endforeach--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-
                 <!--Footer Column-->
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column padd-left-60">
                     <div class="footer-widget links-widget">
-                        <h2>{{$footer->featured_links}}</h2>
                         <div class="row clearfix">
                             @foreach($footer->actual_links as $link)
                                 @if($loop->index % 3 == 0)

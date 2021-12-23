@@ -23,7 +23,7 @@
                         <div class="content-column col-md-6 col-sm-6 col-xs-12">
                             <div class="inner text-left wow fadeInLeft" data-wow-delay="0ms"
                                  data-wow-duration="1500ms">
-                                <h3>{{$information->more_info_section->all()[0]->header}}</h3>
+                                <h3></h3>
                                 <div class="text">
                                     {{$information->more_info_section->all()[0]->body}}
                                 </div>
@@ -37,8 +37,8 @@
                         <div class="content-column col-md-6 col-sm-6 col-xs-12">
                             <div class="inner text-right wow fadeInRight" data-wow-delay="0ms"
                                  data-wow-duration="1500ms">
-                                <h3>{{$information->more_info_section->all()[1]->header}}</h3>
-                                <div class="text">
+                                <h3 class="d-none"></h3>
+                                <div class="text pt-10">
                                     {{$information->more_info_section->all()[1]->body}}
                                 </div>
                                 @if($information->more_info_section->all()[1]->name_button)

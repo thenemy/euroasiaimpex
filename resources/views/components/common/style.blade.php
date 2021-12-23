@@ -40,7 +40,7 @@
 
     h1, h2, h3, h4, h5, h6 {
         position: relative;
-        font-family: 'Grand Hotel', cursive;
+        font-family: 'Roboto Slab', cursive;
         font-weight: normal;
         margin: 0px;
         background: none;
@@ -1071,7 +1071,7 @@
     }
 
     .main-slider h2 {
-        font-size: 110px;
+        font-size: 8rem;
         color: rgba({{$main_color[0]}},{{$main_color[1]}},{{$main_color[2]}},{{$main_color[3]}});
         font-weight: 400;
         text-transform: capitalize;
@@ -1116,7 +1116,6 @@
 
     .sec-title-one {
         position: relative;
-        padding-top: 70px;
         padding-bottom: 10px;
         text-align: center;
         margin-bottom: 50px;
@@ -1128,7 +1127,7 @@
         left: 0px;
         top: 0px;
         width: 100%;
-        height: 80px;
+
         background: url({{$common_icon}}) center top no-repeat;
     }
 
@@ -1431,7 +1430,7 @@
     .style-two .tabs-style-one .tabs-content h3 {
         font-size: 34px;
         font-weight: 400;
-        font-family: 'Grand Hotel', cursive;
+        font-family: 'Roboto Slab', cursive;
     }
 
     .style-two .tabs-style-one .tabs-content .subtitle {
@@ -2239,7 +2238,7 @@
 
     .testimonial-section-two .slide-item .info .title {
         font-size: 34px;
-        font-family: 'Grand Hotel', cursive;
+        font-family: 'Roboto Slab', cursive;
         line-height: 1.3em;
         padding-right: 20px;
     }
@@ -2466,6 +2465,7 @@
 ====================================================================
 
 ***/
+
 
     .main-footer {
         position: relative;
@@ -4278,7 +4278,7 @@
         position: relative;
         padding: 15px 20px;
         border-left: 5px solid rgba({{$choice_color[0]}},{{$choice_color[1]}},{{$choice_color[2]}},{{$choice_color[3]}});
-        font-family: 'Grand Hotel', cursive;
+        font-family: 'Roboto Slab', cursive;
         background: none;
         font-size: 24px;
         line-height: 1.3em;
@@ -6009,4 +6009,14 @@
         display: block;
         width: 100%;
     }
+    .main-banner{
+        object-fit: fill;
+    }
+    @media (max-width: 1620px){
+        .main-text {
+            font-size: 6rem;
+            left
+        }
+    }
+
 </style>

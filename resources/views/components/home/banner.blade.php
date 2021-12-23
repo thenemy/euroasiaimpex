@@ -6,7 +6,8 @@
                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
                     data-thumb="{{$main_banner->image->image_path}}" data-saveperformance="off"
                     data-title="Awesome Title Here">
-                    <img src="{{asset($main_banner->image->image_path)}}" alt="" data-bgposition="center top"
+                    <img class="main-banner" src="{{asset($main_banner->image->image_path)}}" alt=""
+                         data-bgposition="center top"
                          data-bgfit="cover"
                          data-bgrepeat="no-repeat">
                     <div class="tp-caption sfl sfb tp-resizeme"
@@ -20,7 +21,9 @@
                          data-elementdelay="0.01"
                          data-endelementdelay="0.3"
                          data-endspeed="1200"
-                         data-endeasing="Power4.easeIn"><h2>{{$main_banner->title}}</h2></div>
+                         data-endeasing="Power4.easeIn">
+                        <h2 class="main-text">{{$main_banner->title}}</h2>
+                    </div>
 
                     <div class="tp-caption sfr sfb tp-resizeme"
                          data-x="center" data-hoffset="0"
@@ -75,10 +78,10 @@
                              data-endelementdelay="0.3"
                              data-endspeed="1200"
                              data-endeasing="Power4.easeIn">
-                            <figure class="content-image"><img src="{{$banners[$i]->icon_path}}" alt=""></figure>
+                            <figure class="content-image"><img class="main-banner" src="{{$banners[$i]->icon_path}}" alt=""></figure>
                         </div>
 
-                        <div class="tp-caption sfr sfb tp-resizeme"
+                        <div class="tp-caption main-text sfr sfb tp-resizeme"
                              data-x="left" data-hoffset="15"
                              data-y="center" data-voffset="-10"
                              data-speed="1500"

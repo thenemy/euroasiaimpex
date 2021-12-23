@@ -1,7 +1,10 @@
 <section class="contact-section">
+
     <div class="auto-container">
+
         <!--Section Title-->
         <div class="sec-title-one">
+            <img class="w-100 h-auto" src="{{asset('images/mail.png')}}" alt="mail" width="80px" height="auto">
             <h2>{{$title}}</h2>
         </div>
 

@@ -89,8 +89,8 @@ class Header extends Component
     {
         $this->languages = collect([
             new Language("uz", "Türkçe"),
-            new Language("en", "English language"),
-            new Language("ru", "Русский язык"),
+            new Language("en", "English"),
+            new Language("ru", "Русский"),
         ]);
 
         $this->chosen_lang = $this->languages->where("lang_id", "=", session("locale"))->first()->name_of_language;

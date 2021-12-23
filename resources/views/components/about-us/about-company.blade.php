@@ -13,38 +13,26 @@
 
         <div class="row clearfix">
             <!--Column-->
-            <div class="column col-lg-5 col-md-4 col-sm-12 col-xs-12">
-                <figure class="image-box wow slideInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><img
-                        src="{{$image}}" alt=""></figure>
+            <div class="column col-lg-4 pt-5 col-md-4 col-sm-12 col-xs-12">
+                <figure class="image-box pt-5 slideInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"><img
+                        src="{{$image}}" style="padding-top: 2rem" alt="">
+                </figure>
             </div>
             <!--Column-->
-            <div class="column col-lg-7 col-md-8 col-sm-12 col-xs-12">
+            <div class="column col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <div class="tabs-box tabs-style-one">
                     <div class="row clearfix">
 
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <!--Tab Buttons-->
-                            <ul class="tab-buttons clearfix">
-                                @foreach($about_company as $company)
-                                    <li class="tab-btn pagination-start @if($loop->index == 0) active-btn active @elseif($loop->index > 2) remove-circle @endif"
-                                        data-tab="#tab-{{$company->id}}"
-                                        unique_id="{{$loop->index}}"
-                                    >
-                                        <span class="txt">{{$company->id_to_show}}</span></li>
-                                @endforeach
-                            </ul>
 
-                        </div>
-
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
                             <!--Tabs Content-->
-                            <div class="tabs-content">
+                            <div class="">
 
                                 <!--Tab-->
                                 @foreach($about_company as $company)
-                                    <div class="tab @if($loop->index == 0) active-tab @endif" id="tab-{{$company->id}}">
-                                        <div class="subtitle">{{$company->title}}</div>
-                                        <h3>{{$company->header}} </h3>
+                                    <div class="" id="tab-{{$company->id}}">
+                                        <h2 class="subtitle">{{$company->title}}</h2>
+                                        <h2>{{$company->header}} </h2>
                                         <div class="content">
                                             @php
                                                 echo  $company->body;
