@@ -14,6 +14,6 @@ class LanguageController extends Controller
             session(['locale' => $lang]);
         }
 
-        return redirect()->to("/");
+        return back();
     }
 }
