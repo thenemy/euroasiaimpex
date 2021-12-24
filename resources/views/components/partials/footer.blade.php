@@ -9,11 +9,7 @@
                 <!--Footer Column-->
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column">
                     <div class="footer-widget about-widget">
-                        <figure class="footer-logo"><a href="index.blade.php"><img src="
-                                {{$logo->logo_220_80}}"
-                                                                                    alt="">
-                            </a>
-                        </figure>
+
                         <div class="text">
                             @php
                                 echo $footer->text_desc_footer;
