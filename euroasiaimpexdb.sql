@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 23, 2021 at 03:38 PM
+-- Generation Time: Dec 26, 2021 at 06:58 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.23
 
@@ -383,7 +383,7 @@ CREATE TABLE `icons` (
 
 INSERT INTO `icons` (`id`, `icon`, `icon_type`, `icon_id`) VALUES
 (1, '../images/icons/preloader.GIF', 'App\\Models\\Common\\Style', 1),
-(2, 'images_store/logo/1640266268.png', 'App\\Models\\Common\\Logo', 1);
+(2, 'images_store/logo/1640531479.png', 'App\\Models\\Common\\Logo', 1);
 
 -- --------------------------------------------------------
 
@@ -442,7 +442,7 @@ INSERT INTO `images_admin` (`id`, `image`, `image_type`, `image_id`) VALUES
 (11, 'images_store/sponsors/1638190894.png', 'App\\Models\\Common\\Sponsor', 4),
 (12, 'images_store/sponsors/1638190907.png', 'App\\Models\\Common\\Sponsor', 5),
 (13, 'images_store/sponsors/1638190860.png', 'App\\Models\\Common\\Sponsor', 6),
-(14, 'images_store/logo/1640263170.png', 'App\\Models\\Common\\Logo', 1),
+(14, 'images_store/logo/1640453266.png', 'App\\Models\\Common\\Logo', 1),
 (15, 'images_store/three_banner/1639915822.jpg', 'App\\Models\\Common\\BannerForThreeSection', 2);
 
 -- --------------------------------------------------------
@@ -539,6 +539,13 @@ CREATE TABLE `instagram_feeds` (
   `name^uz` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `instagram_feeds`
+--
+
+INSERT INTO `instagram_feeds` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
+(1, '1', '1', '1');
+
 -- --------------------------------------------------------
 
 --
@@ -562,6 +569,13 @@ CREATE TABLE `keep_in_touches` (
   `name^en` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `name^uz` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `keep_in_touches`
+--
+
+INSERT INTO `keep_in_touches` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
+(1, '1', '1', '1');
 
 -- --------------------------------------------------------
 
@@ -1389,7 +1403,7 @@ ALTER TABLE `info_section_models`
 -- AUTO_INCREMENT for table `instagram_feeds`
 --
 ALTER TABLE `instagram_feeds`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `instagram_images`
@@ -1401,7 +1415,7 @@ ALTER TABLE `instagram_images`
 -- AUTO_INCREMENT for table `keep_in_touches`
 --
 ALTER TABLE `keep_in_touches`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `languages`
