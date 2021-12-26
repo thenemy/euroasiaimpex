@@ -11,6 +11,7 @@ use App\Models\Common\Footer\InstagramImages;
 use App\Models\Common\Footer\KeepInTouch;
 use App\Models\Common\Footer\LeftMostText;
 use App\Models\Common\Information;
+use Hamcrest\Thingy;
 use Illuminate\View\Component;
 
 class Links
@@ -93,6 +94,14 @@ class Footer extends Component
     public $footer;
     public $logo;
     public $copy_rights;
+    public $motto;
+
+    public function __construct()
+    {
+        $this->setLogo();
+        $this->setFooter();
+        $this->setCopyRights();
+    }
 
     private function setCopyRights()
     {
@@ -104,12 +113,6 @@ class Footer extends Component
         $this->logo = $this->getLogo();
     }
 
-    public function __construct()
-    {
-        $this->setLogo();
-        $this->setFooter();
-        $this->setCopyRights();
-    }
 
     private function setFooter()
     {
@@ -121,7 +124,7 @@ class Footer extends Component
         $keep = KeepInTouch::all()->first();
         $instagram = InstagramFeed::all()->first();
         $featured_links = FeaturedLinks::all()->first();
-        $follow  = FollowUs::all()->first();
+        $follow = FollowUs::all()->first();
         $this->footer = new FooterModel(
             $left ? $left->body : "",
             $keep ? $keep->name : "",
@@ -130,14 +133,14 @@ class Footer extends Component
             $image_instagram,
             $featured_links ? $featured_links->name : "",
             $links,
-            $follow? $follow->name : "",
+            $follow ? $follow->name : "",
             $social_links
         );
     }
 
     private function getFeaturedLinks()
     {
-        if ($feature =FeaturedLinks::all()->first()) {
+        if ($feature = FeaturedLinks::all()->first()) {
             return $feature->link->map(function ($item) {
                 return new Links($item->name, $item->link);
             });
@@ -190,5 +193,15 @@ class Footer extends Component
     public function render()
     {
         return view('components.partials.footer');
+    }
+}
+
+class Motto
+{
+    private $text;
+
+    public function __construct($text)
+    {
+        $this->text = $text;
     }
 }

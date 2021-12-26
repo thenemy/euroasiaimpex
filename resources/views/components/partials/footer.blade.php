@@ -5,13 +5,12 @@
     <div class="footer-upper">
         <div class="auto-container">
             <div class="row clearfix">
-
                 <!--Footer Column-->
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column">
                     <div class="footer-widget about-widget">
                         <figure class="footer-logo"><a href="index.blade.php">
                                 <img src="{{$logo->logo_220_80}}"
-                                                                                   alt="">
+                                     alt="">
                             </a>
                         </figure>
                         <div class="text">
@@ -44,7 +43,7 @@
                             <h3>{{$footer->follows_us}}</h3>
                             <div class="links">
                                 @foreach($footer->social_links as $social_link)
-                                     <a href="{{$social_link->link}}"><span
+                                    <a href="{{$social_link->link}}"><span
                                             class="fa fa-{{$social_link->name_of_icon}}"></span></a>
                                 @endforeach
                             </div>
@@ -52,10 +51,6 @@
 
                     </div>
 
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex align-items-end" style="margin-left: auto;">
-                    <img class="image right" src="{{asset('images/logo_turkish.png')}}" alt="" width="200px" height="76px" style=" float: right;.">
                 </div>
             </div>
 
@@ -65,11 +60,25 @@
     <!--Footer Bottom-->
     <div class="footer-bottom">
         <div class="auto-container">
-
-{{--            <!--Copyright-->--}}
-{{--            <div class="copyright">{{$copy_rights}}</div>--}}
-
+            <div class="copyright">
+                @switch(session("locale"))
+                    @case('uz')
+                    <p>
+                        Şeffaflık, adalet ve dürüstlük.
+                    </p>
+                    @break
+                    @case('ru')
+                    <p>
+                        Прозрачность, справедливость и честность.
+                    </p>
+                    @break
+                    @case('en')
+                    <p>
+                        Clarity, fairness and honesty.
+                    </p>
+                    @break
+                @endswitch
+            </div>
         </div>
     </div>
-
 </footer>

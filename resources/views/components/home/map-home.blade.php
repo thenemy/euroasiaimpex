@@ -1,5 +1,4 @@
 <section class="fluid-section-two">
-
     <div class="outer-box clearfix">
         <!--Left Column-->
         <div class="left-column">

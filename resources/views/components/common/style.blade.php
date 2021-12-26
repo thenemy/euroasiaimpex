@@ -19,8 +19,8 @@
     body {
         font-family: 'Roboto Slab', sans-serif;
         font-size: 15px;
-        color: rgba({{$secondary_color[0]}},{{$secondary_color[1]}},{{$secondary_color[2]}},{{$secondary_color[3]}});
-        line-height: 1.8em;
+        {{--color: rgba({{$secondary_color[0]}},{{$secondary_color[1]}},{{$secondary_color[2]}},{{$secondary_color[3]}});--}}
+            line-height: 1.8em;
         font-weight: 400;
         background: rgba({{$main_color[0]}},{{$main_color[1]}},{{$main_color[2]}},{{$main_color[3]}});
         -webkit-font-smoothing: antialiased;
@@ -40,9 +40,9 @@
 
     h1, h2, h3, h4, h5, h6 {
         position: relative;
-        font-family: 'Roboto Slab', cursive;
+        font-family: 'Roboto Slab', serif;
         font-weight: normal;
-        margin: 0px;
+        margin: 0;
         background: none;
         line-height: 1.6em;
     }
@@ -241,7 +241,7 @@
         background-color: rgba({{$main_color[0]}},{{$main_color[1]}},{{$main_color[2]}},{{$main_color[3]}});
         background-position: center center;
         background-repeat: no-repeat;
-            background-image: url({{$preloader_GIF}});
+        background-image: url({{$preloader_GIF}});
     }
 
     img {
@@ -1246,7 +1246,7 @@
         top: 100%;
         height: 64px;
         width: 100%;
-        background:url({{$home_image_down}}) center top no-repeat;
+        background: url({{$home_image_down}}) center top no-repeat;
 
     }
 
@@ -2651,7 +2651,7 @@
 
     .footer-style-one .footer-bottom {
         position: relative;
-        background:  rgba({{$main_color[0]}},{{$main_color[1]}},{{$main_color[2]}},{{$main_color[3]}});
+        background: rgba({{$main_color[0]}},{{$main_color[1]}},{{$main_color[2]}},{{$main_color[3]}});
         color: #aaaaaa;
         font-size: 14px;
         text-align: center;
@@ -6009,14 +6009,40 @@
         display: block;
         width: 100%;
     }
-    .main-banner{
-        object-fit: fill;
+
+    .main-banner {
+        object-fit: fill !important;
     }
-    @media (max-width: 1620px){
+
+
+    .main-banner {
+        height: 100vh;
+        object-fit: fill !important;
+    }
+
+    @media (max-width: 720px) {
+        .main-banner {
+            height: 50vh !important;
+        }
+
         .main-text {
-            font-size: 6rem;
-            left
+            font-size: 3.5rem !important;
+        }
+
+        .mini-header {
+            font-size: 2rem !important;
+        }
+
+        .banner-texts .main-text {
+            font-size: 4rem !important;
         }
     }
 
+
+    .centered-banner{
+        margin-bottom: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 </style>

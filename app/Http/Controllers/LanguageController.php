@@ -9,11 +9,9 @@ class LanguageController extends Controller
 {
     public function changeLanguage($lang)
     {
-
         if (in_array($lang, ["en", "ru", "uz"])) {
             session(['locale' => $lang]);
         }
-
         return back();
     }
 }

@@ -92,7 +92,6 @@ class Header extends Component
             new Language("en", "English"),
             new Language("ru", "Русский"),
         ]);
-
         $this->chosen_lang = $this->languages->where("lang_id", "=", session("locale"))->first()->name_of_language;
     }
 

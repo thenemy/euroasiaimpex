@@ -10,6 +10,7 @@
     <x-common.style/>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -43,7 +44,19 @@
 
 
     <!--Fluid Section Two-->
-    <x-home.map-home/>
+    <section class="subscribe-section">
+        <div class="auto-container">
+            <!--Form Container-->
+            <div class="form-container">
+                <div class="">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-items-end" style="margin-left: auto;">
+                        <img class="image right" src="{{asset('images/logo_turkish.png')}}" alt="" width="200px"
+                             height="76px" style=" float: right;.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <x-partials.footer/>
 
