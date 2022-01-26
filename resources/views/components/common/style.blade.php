@@ -4,7 +4,7 @@
 <style rel="stylesheet">
     @font-face {
         font-family: pacific;
-        src: url('../../../public/fonts/');
+        src: url(/fonts/pacific.ttf);
     }
     * {
         margin: 0px;

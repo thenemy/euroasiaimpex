@@ -40,19 +40,19 @@
     <x-common.sponsors/>
 
     <!--Call TO Action One-->
-    <section class="subscribe-section">
-        <div class="auto-container">
-            <!--Form Container-->
-            <div class="form-container">
-                <div class="">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-items-end" style="margin-left: auto;">
-                        <img class="image right" src="{{asset('images/logo_turkish.png')}}" alt="" width="200px"
-                             height="76px" style=" float: right;.">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="subscribe-section">--}}
+{{--        <div class="auto-container">--}}
+{{--            <!--Form Container-->--}}
+{{--            <div class="form-container">--}}
+{{--                <div class="">--}}
+{{--                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-items-end" style="margin-left: auto;">--}}
+{{--                        <img class="image right" src="{{asset('images/logo_turkish.png')}}" alt="" width="200px"--}}
+{{--                             height="76px" style=" float: right;.">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     <x-partials.footer/>
 </div>

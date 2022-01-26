@@ -95,12 +95,14 @@ class Footer extends Component
     public $logo;
     public $copy_rights;
     public $motto;
+    public $headers;
 
     public function __construct()
     {
         $this->setLogo();
         $this->setFooter();
         $this->setCopyRights();
+        $this->setHeader();
     }
 
     private function setCopyRights()
@@ -169,6 +171,13 @@ class Footer extends Component
 //            new SocialLinks("instagram", ""),
 //        ]);
 //    }
+    public function setHeader()
+    {
+        $this->headers = [];
+        foreach (\App\Models\Common\Header::all() as $header) {
+            array_push($this->headers, new Headers($header->name, $header->link));
+        }
+    }
 
     private function getImageInstagram()
     {
