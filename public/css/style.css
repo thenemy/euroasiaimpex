@@ -66,6 +66,7 @@
 	outline:none;
 }
 
+
 /***
 
 ====================================================================
@@ -2580,7 +2581,7 @@ img{
 
 .footer-style-one .about-widget .footer-logo{
 	position:relative;
-	margin:-35px 0px 20px;
+	margin:0px 0px 0px;
 }
 
 .footer-style-two .logo-widget{

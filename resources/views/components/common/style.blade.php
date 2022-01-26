@@ -1,6 +1,11 @@
 <link href="css/import_style.css" rel="stylesheet">
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="{{mix("css/app.css")}}">
 <style rel="stylesheet">
-
+    @font-face {
+        font-family: pacific;
+        src: url('../../../public/fonts/');
+    }
     * {
         margin: 0px;
         padding: 0px;
