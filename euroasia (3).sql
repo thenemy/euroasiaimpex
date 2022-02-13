@@ -2,10 +2,10 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Dec 26, 2021 at 06:58 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 7.4.23
+-- Хост: 127.0.0.1
+-- Время создания: Фев 13 2022 г., 07:11
+-- Версия сервера: 10.4.20-MariaDB
+-- Версия PHP: 7.4.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `constuctor`
+-- База данных: `euroasia`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `about_company_descriptions`
+-- Структура таблицы `about_company_descriptions`
 --
 
 CREATE TABLE `about_company_descriptions` (
@@ -48,16 +48,16 @@ CREATE TABLE `about_company_descriptions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `about_company_descriptions`
+-- Дамп данных таблицы `about_company_descriptions`
 --
 
 INSERT INTO `about_company_descriptions` (`id`, `title^ru`, `title^uz`, `title^en`, `header^ru`, `header^uz`, `header^en`, `footer^ru`, `footer^uz`, `footer^en`, `key_word^ru`, `key_word^uz`, `key_word^en`, `about_company_title_id`, `body^ru`, `body^uz`, `body^en`) VALUES
-(1, 'Кто мы', 'Biz kimiz', 'Who we are', '—', '—', '—', 'EUROASIA IMPEX', 'EUROASIA IMPEX', 'EUROASIA IMPEX', '1', '1', '1', 1, 'Наша фирма на протяжении многих лет занимается поставкой с Турции на среднеазиатский рынок различных видов товаров таких как стройматериалы, пластиковые трубы для отопления и водоснабжения, запорная арматура, хамуты, паяльники и ножницы для пластиковых труб, оборудования и сырье, строительная техника и запчасти, фильтры для очистки воды, пластиковые изделия для строительства и домашнего обихода, продовольственные товары, малая бытовая техника и другие.\r\nНа сегодняшний день мы являемся эксклюзивным дилером и доверенным партнёром нескольких заводов. Кроме этого, пользуясь благоприятной геолокацией нашей компании и среде для бизнеса, мы помогаем нашим инопартнерам осуществлению бизнес сделок и соглашений.\r\nИсходя из опыта и пользуясь своей репутацией, наша компания последние три года активно работает на сфере международной перевозке грузов. Не останавливаясь на достигнутом мы уже набрали опыт при использовании мультимодальных видов транспорта и транзита грузов через морские порты.\r\nНаша цель никогда не останавливаться, перспективно работать усовершенствованию работающих проектов и применять новые возможности в бизнесе.\r\n Мы всегда стремимся вести дела с справедливостью, честностью и открыто-прозрачно, которая способствует долгосрочным отношениям и доверию нам.', 'Firmamız uzun yıllardır meşgul teslimat ile Türkiye\'nin orta asya pazarı farklı türde öğeleri gibi inşaat malzemeleri, plastik boru, ısıtma ve su temini, stop vana, хамуты, lehimleme ırons ve makası, plastik boru, ekipman ve hammadde, inşaat makineleri ve yedek parçaları, su arıtma filtreleri, plastik ürünler, inşaat, ev eşyaları, gıda ürünleri, küçük ev aletleri ve diğerleri.\r\nBugüne kadar, birkaç fabrikanın özel bir satıcısı ve güvenilir ortağıyız. Buna ek olarak, şirketimizin elverişli coğrafi konumlarından ve iş ortamından yararlanarak, iş arkadaşımızın iş anlaşmaları ve anlaşmalarını gerçekleştirmesine yardımcı oluyoruz.\r\nDeneyimlerinden ve itibarından yararlanarak firmamız son üç yıldır uluslararası yük taşımacılığı alanında aktif olarak çalışmaktadır. Orada durmadan, limanlardan çok modlu nakliye ve kargo transit modlarını kullanırken zaten deneyim kazandık.\r\nAmacımız asla durmamak, çalışan projeleri geliştirmek ve iş dünyasındaki yeni fırsatları uygulamak için umut verici bir şekilde çalışmaktır.\r\nHer zaman adaletle, dürüstlükle ve açık ve şeffaf bir şekilde iş yapmaya çalışıyoruz, bu da uzun vadeli ilişkileri ve bize olan güveni teşvik ediyor.', 'Our company has been supplying various types of goods from Turkey to the Central Asian market for many years, such as building materials, plastic pipes for heating and water supply, shut-off valves, hammocks, soldering irons and scissors for plastic pipes, equipment and raw materials, construction machinery and spare parts, water filters, plastic products for construction and household use, foodstuffs, small household appliances and others.\r\nToday we are an exclusive dealer and a trusted partner of several factories. In addition, taking advantage of the favorable geolocation of our company and the business environment, we help our foreign partners to implement business transactions and agreements.\r\nBased on experience and using its reputation, our company has been actively working in the field of international cargo transportation for the last three years. Without stopping there, we have already gained experience in using multimodal modes of transport and cargo transit through seaports.\r\nOur goal is never to stop, to work prospectively to improve working projects and to apply new business opportunities.\r\n We always strive to conduct business with fairness, honesty and openly-transparently, which promotes long-term relationships and trust in us.');
+(1, 'О нас', 'Biz hakkımızda', 'About us', '—', '—', '—', 'EUROASIA IMPEX', 'EUROASIA IMPEX', 'EUROASIA IMPEX', '1', '1', '1', 1, 'Наша фирма на протяжении многих лет занимается поставкой с Турции на среднеазиатский рынок различных видов товаров таких как стройматериалы, пластиковые трубы для отопления и водоснабжения, запорная арматура, хамуты, паяльники и ножницы для пластиковых труб, оборудования и сырье, строительная техника и запчасти, фильтры для очистки воды, пластиковые изделия для строительства и домашнего обихода, продовольственные товары, малая бытовая техника и другие.\r\nНа сегодняшний день мы являемся эксклюзивным дилером и доверенным партнёром нескольких заводов. Кроме этого, пользуясь благоприятной геолокацией нашей компании и среде для бизнеса, мы помогаем нашим инопартнерам осуществлению бизнес сделок и соглашений.\r\nИсходя из опыта и пользуясь своей репутацией, наша компания последние три года активно работает на сфере международной перевозке грузов. Не останавливаясь на достигнутом мы уже набрали опыт при использовании мультимодальных видов транспорта и транзита грузов через морские порты.\r\nНаша цель никогда не останавливаться, перспективно работать усовершенствованию работающих проектов и применять новые возможности в бизнесе.\r\n Мы всегда стремимся вести дела с справедливостью, честностью и открыто-прозрачно, которая способствует долгосрочным отношениям и доверию нам.', 'Firmamız uzun yıllardır meşgul teslimat ile Türkiye\'nin orta asya pazarı farklı türde öğeleri gibi inşaat malzemeleri, plastik boru, ısıtma ve su temini, stop vana, хамуты, lehimleme ırons ve makası, plastik boru, ekipman ve hammadde, inşaat makineleri ve yedek parçaları, su arıtma filtreleri, plastik ürünler, inşaat, ev eşyaları, gıda ürünleri, küçük ev aletleri ve diğerleri.\r\nBugüne kadar, birkaç fabrikanın özel bir satıcısı ve güvenilir ortağıyız. Buna ek olarak, şirketimizin elverişli coğrafi konumlarından ve iş ortamından yararlanarak, iş arkadaşımızın iş anlaşmaları ve anlaşmalarını gerçekleştirmesine yardımcı oluyoruz.\r\nDeneyimlerinden ve itibarından yararlanarak firmamız son üç yıldır uluslararası yük taşımacılığı alanında aktif olarak çalışmaktadır. Orada durmadan, limanlardan çok modlu nakliye ve kargo transit modlarını kullanırken zaten deneyim kazandık.\r\nAmacımız asla durmamak, çalışan projeleri geliştirmek ve iş dünyasındaki yeni fırsatları uygulamak için umut verici bir şekilde çalışmaktır.\r\nHer zaman adaletle, dürüstlükle ve açık ve şeffaf bir şekilde iş yapmaya çalışıyoruz, bu da uzun vadeli ilişkileri ve bize olan güveni teşvik ediyor.', 'Our company has been supplying various types of goods from Turkey to the Central Asian market for many years, such as building materials, plastic pipes for heating and water supply, shut-off valves, hammocks, soldering irons and scissors for plastic pipes, equipment and raw materials, construction machinery and spare parts, water filters, plastic products for construction and household use, foodstuffs, small household appliances and others.\r\nToday we are an exclusive dealer and a trusted partner of several factories. In addition, taking advantage of the favorable geolocation of our company and the business environment, we help our foreign partners to implement business transactions and agreements.\r\nBased on experience and using its reputation, our company has been actively working in the field of international cargo transportation for the last three years. Without stopping there, we have already gained experience in using multimodal modes of transport and cargo transit through seaports.\r\nOur goal is never to stop, to work prospectively to improve working projects and to apply new business opportunities.\r\n We always strive to conduct business with fairness, honesty and openly-transparently, which promotes long-term relationships and trust in us.');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `about_company_titles`
+-- Структура таблицы `about_company_titles`
 --
 
 CREATE TABLE `about_company_titles` (
@@ -68,7 +68,7 @@ CREATE TABLE `about_company_titles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `about_company_titles`
+-- Дамп данных таблицы `about_company_titles`
 --
 
 INSERT INTO `about_company_titles` (`id`, `title^ru`, `title^uz`, `title^en`) VALUES
@@ -77,7 +77,7 @@ INSERT INTO `about_company_titles` (`id`, `title^ru`, `title^uz`, `title^en`) VA
 -- --------------------------------------------------------
 
 --
--- Table structure for table `banner_for_three_sections`
+-- Структура таблицы `banner_for_three_sections`
 --
 
 CREATE TABLE `banner_for_three_sections` (
@@ -89,7 +89,7 @@ CREATE TABLE `banner_for_three_sections` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `banner_for_three_sections`
+-- Дамп данных таблицы `banner_for_three_sections`
 --
 
 INSERT INTO `banner_for_three_sections` (`id`, `title^ru`, `title^uz`, `title^en`, `type`) VALUES
@@ -99,7 +99,7 @@ INSERT INTO `banner_for_three_sections` (`id`, `title^ru`, `title^uz`, `title^en
 -- --------------------------------------------------------
 
 --
--- Table structure for table `buttons`
+-- Структура таблицы `buttons`
 --
 
 CREATE TABLE `buttons` (
@@ -113,7 +113,7 @@ CREATE TABLE `buttons` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `buttons`
+-- Дамп данных таблицы `buttons`
 --
 
 INSERT INTO `buttons` (`id`, `name^ru`, `name^en`, `name^uz`, `link`, `button_type`, `button_id`) VALUES
@@ -131,7 +131,7 @@ INSERT INTO `buttons` (`id`, `name^ru`, `name^en`, `name^uz`, `link`, `button_ty
 -- --------------------------------------------------------
 
 --
--- Table structure for table `category_galleries`
+-- Структура таблицы `category_galleries`
 --
 
 CREATE TABLE `category_galleries` (
@@ -144,7 +144,7 @@ CREATE TABLE `category_galleries` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `category_shops`
+-- Структура таблицы `category_shops`
 --
 
 CREATE TABLE `category_shops` (
@@ -157,7 +157,7 @@ CREATE TABLE `category_shops` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `comment_models`
+-- Структура таблицы `comment_models`
 --
 
 CREATE TABLE `comment_models` (
@@ -176,7 +176,7 @@ CREATE TABLE `comment_models` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `common_for_alls`
+-- Структура таблицы `common_for_alls`
 --
 
 CREATE TABLE `common_for_alls` (
@@ -190,7 +190,7 @@ CREATE TABLE `common_for_alls` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `failed_jobs`
+-- Структура таблицы `failed_jobs`
 --
 
 CREATE TABLE `failed_jobs` (
@@ -206,7 +206,7 @@ CREATE TABLE `failed_jobs` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `featured_links`
+-- Структура таблицы `featured_links`
 --
 
 CREATE TABLE `featured_links` (
@@ -217,7 +217,7 @@ CREATE TABLE `featured_links` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `featured_links`
+-- Дамп данных таблицы `featured_links`
 --
 
 INSERT INTO `featured_links` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
@@ -226,7 +226,7 @@ INSERT INTO `featured_links` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `follow_us`
+-- Структура таблицы `follow_us`
 --
 
 CREATE TABLE `follow_us` (
@@ -239,7 +239,7 @@ CREATE TABLE `follow_us` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `form_titles`
+-- Структура таблицы `form_titles`
 --
 
 CREATE TABLE `form_titles` (
@@ -253,7 +253,7 @@ CREATE TABLE `form_titles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `form_titles`
+-- Дамп данных таблицы `form_titles`
 --
 
 INSERT INTO `form_titles` (`id`, `title^ru`, `title^uz`, `title^en`, `button_name^uz`, `button_name^ru`, `button_name^en`) VALUES
@@ -262,7 +262,7 @@ INSERT INTO `form_titles` (`id`, `title^ru`, `title^uz`, `title^en`, `button_nam
 -- --------------------------------------------------------
 
 --
--- Table structure for table `form_to_fills`
+-- Структура таблицы `form_to_fills`
 --
 
 CREATE TABLE `form_to_fills` (
@@ -275,7 +275,7 @@ CREATE TABLE `form_to_fills` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `form_to_fills`
+-- Дамп данных таблицы `form_to_fills`
 --
 
 INSERT INTO `form_to_fills` (`id`, `firstname`, `lastname`, `email`, `subject`, `message`) VALUES
@@ -290,7 +290,7 @@ INSERT INTO `form_to_fills` (`id`, `firstname`, `lastname`, `email`, `subject`, 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `google_map_confs`
+-- Структура таблицы `google_map_confs`
 --
 
 CREATE TABLE `google_map_confs` (
@@ -309,7 +309,7 @@ CREATE TABLE `google_map_confs` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `google_map_confs`
+-- Дамп данных таблицы `google_map_confs`
 --
 
 INSERT INTO `google_map_confs` (`id`, `lat`, `lang`, `zoom`, `type`, `hue_color`, `title^ru`, `title^en`, `title^uz`, `body^ru`, `body^en`, `body^uz`) VALUES
@@ -318,7 +318,7 @@ INSERT INTO `google_map_confs` (`id`, `lat`, `lang`, `zoom`, `type`, `hue_color`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `headers`
+-- Структура таблицы `headers`
 --
 
 CREATE TABLE `headers` (
@@ -326,7 +326,7 @@ CREATE TABLE `headers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `headers`
+-- Дамп данных таблицы `headers`
 --
 
 INSERT INTO `headers` (`id`) VALUES
@@ -337,7 +337,7 @@ INSERT INTO `headers` (`id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `home_banners`
+-- Структура таблицы `home_banners`
 --
 
 CREATE TABLE `home_banners` (
@@ -350,7 +350,7 @@ CREATE TABLE `home_banners` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `hotlines`
+-- Структура таблицы `hotlines`
 --
 
 CREATE TABLE `hotlines` (
@@ -367,7 +367,7 @@ CREATE TABLE `hotlines` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `icons`
+-- Структура таблицы `icons`
 --
 
 CREATE TABLE `icons` (
@@ -378,17 +378,17 @@ CREATE TABLE `icons` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `icons`
+-- Дамп данных таблицы `icons`
 --
 
 INSERT INTO `icons` (`id`, `icon`, `icon_type`, `icon_id`) VALUES
 (1, '../images/icons/preloader.GIF', 'App\\Models\\Common\\Style', 1),
-(2, 'images_store/logo/1640531479.png', 'App\\Models\\Common\\Logo', 1);
+(2, 'images_store/logo/1643038317.png', 'App\\Models\\Common\\Logo', 1);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `icon_htmls`
+-- Структура таблицы `icon_htmls`
 --
 
 CREATE TABLE `icon_htmls` (
@@ -402,7 +402,7 @@ CREATE TABLE `icon_htmls` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `imagables`
+-- Структура таблицы `imagables`
 --
 
 CREATE TABLE `imagables` (
@@ -414,7 +414,7 @@ CREATE TABLE `imagables` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `images_admin`
+-- Структура таблицы `images_admin`
 --
 
 CREATE TABLE `images_admin` (
@@ -425,7 +425,7 @@ CREATE TABLE `images_admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `images_admin`
+-- Дамп данных таблицы `images_admin`
 --
 
 INSERT INTO `images_admin` (`id`, `image`, `image_type`, `image_id`) VALUES
@@ -433,7 +433,7 @@ INSERT INTO `images_admin` (`id`, `image`, `image_type`, `image_id`) VALUES
 (2, '../images/background/bottom-circular.png', 'App\\Models\\Home\\InfoSectionModel', 1),
 (3, '', 'App\\Models\\Home\\InfoSectionDescriptionModel', 1),
 (4, '', 'App\\Models\\Home\\InfoSectionDescriptionModel', 2),
-(5, 'images_store/main_banner/1640265124.png', 'App\\Models\\Home\\MainBanner', 1),
+(5, 'images_store/main_banner/1643038013.jpg', 'App\\Models\\Home\\MainBanner', 1),
 (6, 'images_store/three_banner/1638187696.jpg', 'App\\Models\\Common\\BannerForThreeSection', 1),
 (7, 'images_store/1638800987.png', 'App\\Models\\AboutCompany\\AboutCompanyTitle', 1),
 (8, 'images_store/sponsors/1638190790.png', 'App\\Models\\Common\\Sponsor', 1),
@@ -448,7 +448,7 @@ INSERT INTO `images_admin` (`id`, `image`, `image_type`, `image_id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `image_to_categories`
+-- Структура таблицы `image_to_categories`
 --
 
 CREATE TABLE `image_to_categories` (
@@ -458,7 +458,7 @@ CREATE TABLE `image_to_categories` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `information`
+-- Структура таблицы `information`
 --
 
 CREATE TABLE `information` (
@@ -473,7 +473,7 @@ CREATE TABLE `information` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `information`
+-- Дамп данных таблицы `information`
 --
 
 INSERT INTO `information` (`id`, `title^ru`, `title^uz`, `title^en`, `icon_data`, `action`, `data`, `type`) VALUES
@@ -484,7 +484,7 @@ INSERT INTO `information` (`id`, `title^ru`, `title^uz`, `title^en`, `icon_data`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `info_section_description_models`
+-- Структура таблицы `info_section_description_models`
 --
 
 CREATE TABLE `info_section_description_models` (
@@ -493,13 +493,13 @@ CREATE TABLE `info_section_description_models` (
   `title^ru` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `title^en` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `title^uz` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `body^ru` text COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `body^en` text COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `body^uz` text COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
+  `body^ru` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `body^en` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `body^uz` text COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `info_section_description_models`
+-- Дамп данных таблицы `info_section_description_models`
 --
 
 INSERT INTO `info_section_description_models` (`id`, `info_section_model_id`, `title^ru`, `title^en`, `title^uz`, `body^ru`, `body^en`, `body^uz`) VALUES
@@ -509,7 +509,7 @@ INSERT INTO `info_section_description_models` (`id`, `info_section_model_id`, `t
 -- --------------------------------------------------------
 
 --
--- Table structure for table `info_section_models`
+-- Структура таблицы `info_section_models`
 --
 
 CREATE TABLE `info_section_models` (
@@ -520,7 +520,7 @@ CREATE TABLE `info_section_models` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `info_section_models`
+-- Дамп данных таблицы `info_section_models`
 --
 
 INSERT INTO `info_section_models` (`id`, `title^ru`, `title^uz`, `title^en`) VALUES
@@ -529,7 +529,7 @@ INSERT INTO `info_section_models` (`id`, `title^ru`, `title^uz`, `title^en`) VAL
 -- --------------------------------------------------------
 
 --
--- Table structure for table `instagram_feeds`
+-- Структура таблицы `instagram_feeds`
 --
 
 CREATE TABLE `instagram_feeds` (
@@ -540,7 +540,7 @@ CREATE TABLE `instagram_feeds` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `instagram_feeds`
+-- Дамп данных таблицы `instagram_feeds`
 --
 
 INSERT INTO `instagram_feeds` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
@@ -549,7 +549,7 @@ INSERT INTO `instagram_feeds` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `instagram_images`
+-- Структура таблицы `instagram_images`
 --
 
 CREATE TABLE `instagram_images` (
@@ -560,7 +560,7 @@ CREATE TABLE `instagram_images` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `keep_in_touches`
+-- Структура таблицы `keep_in_touches`
 --
 
 CREATE TABLE `keep_in_touches` (
@@ -571,7 +571,7 @@ CREATE TABLE `keep_in_touches` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `keep_in_touches`
+-- Дамп данных таблицы `keep_in_touches`
 --
 
 INSERT INTO `keep_in_touches` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
@@ -580,7 +580,7 @@ INSERT INTO `keep_in_touches` (`id`, `name^ru`, `name^en`, `name^uz`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `languages`
+-- Структура таблицы `languages`
 --
 
 CREATE TABLE `languages` (
@@ -590,7 +590,7 @@ CREATE TABLE `languages` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `languages`
+-- Дамп данных таблицы `languages`
 --
 
 INSERT INTO `languages` (`id`, `name`, `is_selected`) VALUES
@@ -601,7 +601,7 @@ INSERT INTO `languages` (`id`, `name`, `is_selected`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `left_most_texts`
+-- Структура таблицы `left_most_texts`
 --
 
 CREATE TABLE `left_most_texts` (
@@ -614,7 +614,7 @@ CREATE TABLE `left_most_texts` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `links`
+-- Структура таблицы `links`
 --
 
 CREATE TABLE `links` (
@@ -624,7 +624,7 @@ CREATE TABLE `links` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `links`
+-- Дамп данных таблицы `links`
 --
 
 INSERT INTO `links` (`id`, `link_type`, `link_id`) VALUES
@@ -633,7 +633,7 @@ INSERT INTO `links` (`id`, `link_type`, `link_id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `logos`
+-- Структура таблицы `logos`
 --
 
 CREATE TABLE `logos` (
@@ -641,7 +641,7 @@ CREATE TABLE `logos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `logos`
+-- Дамп данных таблицы `logos`
 --
 
 INSERT INTO `logos` (`id`) VALUES
@@ -650,7 +650,7 @@ INSERT INTO `logos` (`id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `main_banners`
+-- Структура таблицы `main_banners`
 --
 
 CREATE TABLE `main_banners` (
@@ -664,7 +664,7 @@ CREATE TABLE `main_banners` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `main_banners`
+-- Дамп данных таблицы `main_banners`
 --
 
 INSERT INTO `main_banners` (`id`, `title^ru`, `title^uz`, `title^en`, `mini_header^ru`, `mini_header^uz`, `mini_header^en`) VALUES
@@ -673,7 +673,7 @@ INSERT INTO `main_banners` (`id`, `title^ru`, `title^uz`, `title^en`, `mini_head
 -- --------------------------------------------------------
 
 --
--- Table structure for table `migrations`
+-- Структура таблицы `migrations`
 --
 
 CREATE TABLE `migrations` (
@@ -683,7 +683,7 @@ CREATE TABLE `migrations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `migrations`
+-- Дамп данных таблицы `migrations`
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
@@ -740,7 +740,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `password_resets`
+-- Структура таблицы `password_resets`
 --
 
 CREATE TABLE `password_resets` (
@@ -752,7 +752,7 @@ CREATE TABLE `password_resets` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `personals_descriptions`
+-- Структура таблицы `personals_descriptions`
 --
 
 CREATE TABLE `personals_descriptions` (
@@ -769,7 +769,7 @@ CREATE TABLE `personals_descriptions` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `personals_titles`
+-- Структура таблицы `personals_titles`
 --
 
 CREATE TABLE `personals_titles` (
@@ -782,7 +782,7 @@ CREATE TABLE `personals_titles` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `personal_access_tokens`
+-- Структура таблицы `personal_access_tokens`
 --
 
 CREATE TABLE `personal_access_tokens` (
@@ -800,7 +800,7 @@ CREATE TABLE `personal_access_tokens` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `product_pivots`
+-- Структура таблицы `product_pivots`
 --
 
 CREATE TABLE `product_pivots` (
@@ -812,7 +812,7 @@ CREATE TABLE `product_pivots` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `product_to_categories`
+-- Структура таблицы `product_to_categories`
 --
 
 CREATE TABLE `product_to_categories` (
@@ -827,7 +827,7 @@ CREATE TABLE `product_to_categories` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `roles`
+-- Структура таблицы `roles`
 --
 
 CREATE TABLE `roles` (
@@ -839,7 +839,7 @@ CREATE TABLE `roles` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `section_near_maps`
+-- Структура таблицы `section_near_maps`
 --
 
 CREATE TABLE `section_near_maps` (
@@ -853,7 +853,7 @@ CREATE TABLE `section_near_maps` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `section_near_maps`
+-- Дамп данных таблицы `section_near_maps`
 --
 
 INSERT INTO `section_near_maps` (`id`, `title^uz`, `title^ru`, `title^en`, `header^uz`, `header^ru`, `header^en`) VALUES
@@ -862,7 +862,7 @@ INSERT INTO `section_near_maps` (`id`, `title^uz`, `title^ru`, `title^en`, `head
 -- --------------------------------------------------------
 
 --
--- Table structure for table `sponsors`
+-- Структура таблицы `sponsors`
 --
 
 CREATE TABLE `sponsors` (
@@ -872,7 +872,7 @@ CREATE TABLE `sponsors` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `sponsors`
+-- Дамп данных таблицы `sponsors`
 --
 
 INSERT INTO `sponsors` (`id`, `link`, `sponsor_titles_id`) VALUES
@@ -886,7 +886,7 @@ INSERT INTO `sponsors` (`id`, `link`, `sponsor_titles_id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `sponsor_titles`
+-- Структура таблицы `sponsor_titles`
 --
 
 CREATE TABLE `sponsor_titles` (
@@ -897,7 +897,7 @@ CREATE TABLE `sponsor_titles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `sponsor_titles`
+-- Дамп данных таблицы `sponsor_titles`
 --
 
 INSERT INTO `sponsor_titles` (`id`, `title^ru`, `title^uz`, `title^en`) VALUES
@@ -906,7 +906,7 @@ INSERT INTO `sponsor_titles` (`id`, `title^ru`, `title^uz`, `title^en`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `styles`
+-- Структура таблицы `styles`
 --
 
 CREATE TABLE `styles` (
@@ -922,7 +922,7 @@ CREATE TABLE `styles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `styles`
+-- Дамп данных таблицы `styles`
 --
 
 INSERT INTO `styles` (`id`, `choice_color`, `main_color`, `emphasize_color`, `title_color`, `secondary_color`, `common_icon`, `intro_section_before_color_home`, `scroll_up_color`) VALUES
@@ -931,7 +931,7 @@ INSERT INTO `styles` (`id`, `choice_color`, `main_color`, `emphasize_color`, `ti
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Структура таблицы `users`
 --
 
 CREATE TABLE `users` (
@@ -948,576 +948,71 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `users`
+-- Дамп данных таблицы `users`
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'admin', 'admin@admin.com', NULL, '$2y$10$.XSeFebZ7qZVQ.dEUp/1J.Qm8YlMHqC2yNrL.bkdq8rtGoxz5lTrG', NULL, NULL, NULL, '2021-11-29 05:55:31', '2021-11-29 05:55:31');
 
 --
--- Indexes for dumped tables
+-- Индексы сохранённых таблиц
 --
 
 --
--- Indexes for table `about_company_descriptions`
+-- Индексы таблицы `about_company_descriptions`
 --
 ALTER TABLE `about_company_descriptions`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `about_company_titles`
+-- Индексы таблицы `about_company_titles`
 --
 ALTER TABLE `about_company_titles`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `banner_for_three_sections`
+-- Индексы таблицы `banner_for_three_sections`
 --
 ALTER TABLE `banner_for_three_sections`
   ADD PRIMARY KEY (`id`),
   ADD KEY `banner_for_three_sections_type_index` (`type`);
 
 --
--- Indexes for table `buttons`
+-- Индексы таблицы `buttons`
 --
 ALTER TABLE `buttons`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `buttons_button_type_button_id_index` (`button_type`,`button_id`);
+  ADD KEY `buttons_button_type_button_id_index` (`button_type`(191),`button_id`);
 
 --
--- Indexes for table `category_galleries`
+-- Индексы таблицы `category_galleries`
 --
 ALTER TABLE `category_galleries`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `category_shops`
+-- Индексы таблицы `category_shops`
 --
 ALTER TABLE `category_shops`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `comment_models`
+-- Индексы таблицы `comment_models`
 --
 ALTER TABLE `comment_models`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `common_for_alls`
+-- Индексы таблицы `common_for_alls`
 --
 ALTER TABLE `common_for_alls`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `failed_jobs`
---
-ALTER TABLE `failed_jobs`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `failed_jobs_uuid_unique` (`uuid`);
-
---
--- Indexes for table `featured_links`
+-- Индексы таблицы `featured_links`
 --
 ALTER TABLE `featured_links`
   ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `follow_us`
---
-ALTER TABLE `follow_us`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `form_titles`
---
-ALTER TABLE `form_titles`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `form_to_fills`
---
-ALTER TABLE `form_to_fills`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `google_map_confs`
---
-ALTER TABLE `google_map_confs`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `headers`
---
-ALTER TABLE `headers`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `home_banners`
---
-ALTER TABLE `home_banners`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `hotlines`
---
-ALTER TABLE `hotlines`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `icons`
---
-ALTER TABLE `icons`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `icons_icon_type_icon_id_index` (`icon_type`,`icon_id`);
-
---
--- Indexes for table `icon_htmls`
---
-ALTER TABLE `icon_htmls`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `icon_htmls_icon_html_type_icon_html_id_index` (`icon_html_type`,`icon_html_id`);
-
---
--- Indexes for table `imagables`
---
-ALTER TABLE `imagables`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `images_admin`
---
-ALTER TABLE `images_admin`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `images_admin_image_type_image_id_index` (`image_type`,`image_id`);
-
---
--- Indexes for table `image_to_categories`
---
-ALTER TABLE `image_to_categories`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `information`
---
-ALTER TABLE `information`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `information_type_index` (`type`);
-
---
--- Indexes for table `info_section_description_models`
---
-ALTER TABLE `info_section_description_models`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `info_section_models`
---
-ALTER TABLE `info_section_models`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `instagram_feeds`
---
-ALTER TABLE `instagram_feeds`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `instagram_images`
---
-ALTER TABLE `instagram_images`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `keep_in_touches`
---
-ALTER TABLE `keep_in_touches`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `languages`
---
-ALTER TABLE `languages`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `left_most_texts`
---
-ALTER TABLE `left_most_texts`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `links`
---
-ALTER TABLE `links`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `links_link_type_link_id_index` (`link_type`,`link_id`);
-
---
--- Indexes for table `logos`
---
-ALTER TABLE `logos`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `main_banners`
---
-ALTER TABLE `main_banners`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `migrations`
---
-ALTER TABLE `migrations`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `password_resets`
---
-ALTER TABLE `password_resets`
-  ADD KEY `password_resets_email_index` (`email`);
-
---
--- Indexes for table `personals_descriptions`
---
-ALTER TABLE `personals_descriptions`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `personals_titles`
---
-ALTER TABLE `personals_titles`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `personal_access_tokens`
---
-ALTER TABLE `personal_access_tokens`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `personal_access_tokens_token_unique` (`token`),
-  ADD KEY `personal_access_tokens_tokenable_type_tokenable_id_index` (`tokenable_type`,`tokenable_id`);
-
---
--- Indexes for table `product_pivots`
---
-ALTER TABLE `product_pivots`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `product_to_categories`
---
-ALTER TABLE `product_to_categories`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `roles`
---
-ALTER TABLE `roles`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `section_near_maps`
---
-ALTER TABLE `section_near_maps`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `sponsors`
---
-ALTER TABLE `sponsors`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `sponsor_titles`
---
-ALTER TABLE `sponsor_titles`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `styles`
---
-ALTER TABLE `styles`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `users_email_unique` (`email`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `about_company_descriptions`
---
-ALTER TABLE `about_company_descriptions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT for table `about_company_titles`
---
-ALTER TABLE `about_company_titles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `banner_for_three_sections`
---
-ALTER TABLE `banner_for_three_sections`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `buttons`
---
-ALTER TABLE `buttons`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-
---
--- AUTO_INCREMENT for table `category_galleries`
---
-ALTER TABLE `category_galleries`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `category_shops`
---
-ALTER TABLE `category_shops`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `comment_models`
---
-ALTER TABLE `comment_models`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `common_for_alls`
---
-ALTER TABLE `common_for_alls`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `failed_jobs`
---
-ALTER TABLE `failed_jobs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `featured_links`
---
-ALTER TABLE `featured_links`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `follow_us`
---
-ALTER TABLE `follow_us`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `form_titles`
---
-ALTER TABLE `form_titles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `form_to_fills`
---
-ALTER TABLE `form_to_fills`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
-
---
--- AUTO_INCREMENT for table `google_map_confs`
---
-ALTER TABLE `google_map_confs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `headers`
---
-ALTER TABLE `headers`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
---
--- AUTO_INCREMENT for table `home_banners`
---
-ALTER TABLE `home_banners`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `hotlines`
---
-ALTER TABLE `hotlines`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `icons`
---
-ALTER TABLE `icons`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `icon_htmls`
---
-ALTER TABLE `icon_htmls`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `imagables`
---
-ALTER TABLE `imagables`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `images_admin`
---
-ALTER TABLE `images_admin`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
-
---
--- AUTO_INCREMENT for table `image_to_categories`
---
-ALTER TABLE `image_to_categories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `information`
---
-ALTER TABLE `information`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT for table `info_section_description_models`
---
-ALTER TABLE `info_section_description_models`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `info_section_models`
---
-ALTER TABLE `info_section_models`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `instagram_feeds`
---
-ALTER TABLE `instagram_feeds`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `instagram_images`
---
-ALTER TABLE `instagram_images`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `keep_in_touches`
---
-ALTER TABLE `keep_in_touches`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `languages`
---
-ALTER TABLE `languages`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT for table `left_most_texts`
---
-ALTER TABLE `left_most_texts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `links`
---
-ALTER TABLE `links`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `logos`
---
-ALTER TABLE `logos`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `main_banners`
---
-ALTER TABLE `main_banners`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `migrations`
---
-ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
-
---
--- AUTO_INCREMENT for table `personals_descriptions`
---
-ALTER TABLE `personals_descriptions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `personals_titles`
---
-ALTER TABLE `personals_titles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `personal_access_tokens`
---
-ALTER TABLE `personal_access_tokens`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `product_pivots`
---
-ALTER TABLE `product_pivots`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `product_to_categories`
---
-ALTER TABLE `product_to_categories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `roles`
---
-ALTER TABLE `roles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `section_near_maps`
---
-ALTER TABLE `section_near_maps`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `sponsors`
---
-ALTER TABLE `sponsors`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
---
--- AUTO_INCREMENT for table `sponsor_titles`
---
-ALTER TABLE `sponsor_titles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `styles`
---
-ALTER TABLE `styles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
